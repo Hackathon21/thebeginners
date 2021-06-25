@@ -28,7 +28,7 @@ height: 104px;
   position: relative;
   left: 130px;
   width: 1260px;
-  background-color: #01345B;
+  background-color: #132161;
   display: flex;
   align-items: center;
   height: 80px;
@@ -55,7 +55,7 @@ height: 104px;
  
 }
 .navbar ul li a:hover{
-  background-color: #5CE0D8;
+  background-color: #F73859;
 }
 .navbar2{
   
@@ -92,7 +92,7 @@ list-style: none;
 .navbar2 li a:hover{
 font-size: larger;
 color: #050404;
-border: 1px solid #01345B;
+border: 1px solid #F3ECC8;
 border-radius: 20px;
 }
  /* Search bar Styling  */
@@ -136,13 +136,19 @@ top: -8px;
 left: -30px;
 background-color: #4CAF50; /* Green */
 border: none;
-color: white;
+color: #404B69;
 padding: 15px 32px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
-margin: 4px 2px;
+margin: 4px 20px;
 cursor: pointer;
+border-radius: 5px;
 }
-.button2 {background-color: #FFCF43;}
+.button2 {background-color: #F3ECC8;}
+
+.about-img{
+  width: 100%;
+  height: 300px;
+}
