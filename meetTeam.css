@@ -1,117 +1,95 @@
 *{
-    margin: 0;
-      padding: 0;
-      
-  }
-  
-  
-  .height{
-    background-color: #928abe80;
-    height: 3500px;
-  }
-  
-  .logo{
-   position: relative;
-   left: -115px;
-   top: 45px;
-  height: 104px;
-    z-index: -1;
-      
-  }
-  .logo:hover{
-      background: rgb(28, 236, 56);
-      border:none;
-      box-shadow: 5px 5px 10px ;
-      transition:03s;
-  }
-  .navbar{ 
-    position: relative;
-    left: 130px;
-    width: 1260px;
-    background-color: rgb(157, 89, 131);
-    display: flex;
-    align-items: center;
-    height: 80px;
-    border-radius: 0px 0px 0px 60px;
-  }
-  .navbar ul{
-    display: flex;
-  }
-  
-  .navbar ul li{
-    list-style-type: none;
-  }
-  .navbar ul li a {
-    position: relative;
-    top: 8px;
-    left: -31px;
-    border-radius: 10px 0 30px 0;
-    font-size: larger;
-    color: #ffffff;
-    display: block;
-    padding: 0px 27px;
-    text-decoration: none;
-    border-radius: 20px;
-   
-  }
-  .navbar ul li a:hover{
-    background-color: #5CE0D8;
-  }
-  .navbar2{
+  margin: 0;
+    padding: 0;
     
-    position: relative;
-    left: 212px;
-    top: 0px;
-    
-  display: flex;
-  justify-content: center;
-  align-items: center;
-    background-color: #ffffff;
-    padding: 10px;
-    margin: 0%;
-    height: 40px;
-    width: 1177px;
-    box-shadow: 1px 9px 9px 0 rgba(0,0,0,0.1);
-    border-radius: 76px 0 30px 0;
-    
-  }
-  
-  .navbar2 li{
-    height: 10px;
-    float: left;
-  list-style: none; 
-  }
-  .navbar2 li a{
-  
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    margin: 13px 20px;
-    font-size: larger;
-    padding: 6px 32px;
-  }
-  .navbar2 li a:hover{
-  font-size: larger;
-  color: #050404;
-  border: 1px solid #01345B;
-  border-radius: 20px;
-  }
+}
 
-  .button {
-    position: relative;
-    top: -8px;
-    left: -30px;
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    }
-    .button2 {background-color: #FFCF43;}
+
+.height{
+  background-color: #928abe80;
+  height: 3500px;
+}
+
+.logo{
+  position: relative;
+  left: -120px;
+  top: 10px;
+  height: 150px;
+  z-index: 1;
+    
+}
+.navbar{ 
+  position: relative;
+  left: 130px;
+  width: 1260px;
+  background-color: #2e3046;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  border-radius: 0px 0px 0px 60px;
+}
+.navbar ul{
+  display: flex;
+}
+
+.navbar ul li{
+  list-style-type: none;
+}
+.navbar ul li a {
+  position: relative;
+  top: -17px;
+  left: -31px;
+  border-radius: 10px 0 30px 0;
+  font-size: larger;
+  color: #ffffff;
+  display: block;
+  padding: 0px 27px;
+  text-decoration: none;
+  border-radius: 20px;
+ 
+}
+.navbar ul li a:hover{
+  background-color: #1b998b;
+  color: #ffffff;
+}
+.navbar2{
+  
+  position: relative;
+  left: 212px;
+  top: 0px;
+  
+display: flex;
+justify-content: center;
+align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0%;
+  height: 40px;
+  width: 1177px;
+  box-shadow: 1px 9px 9px 0 rgba(0,0,0,0.1);
+  border-radius: 76px 0 30px 0;
+  
+}
+
+.navbar2 li{
+  height: 10px;
+  float: left;
+  list-style: none; 
+}
+.navbar2 li a{
+
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin: 13px 20px;
+  font-size: larger;
+  padding: 6px 32px;
+}
+.navbar2 li a:hover{
+font-size: larger;
+color: #050404;
+border: 1px solid #132161;
+border-radius: 20px;
+}
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
@@ -146,7 +124,7 @@ section .section-title {
 
 #team .card {
     border: none;
-    background: #e6f6f6;
+    background: #E8E8E8;
 }
 
 .image-flip:hover .backside,
