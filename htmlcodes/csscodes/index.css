@@ -102,7 +102,7 @@ border-radius: 20px;
     width: 100%;
    position: relative;
    top: -35px;
-    background-image: url(/htmlcodes/photos/finalbackground.png);
+    background-image: url(./photo/finalbackground.png);
 }
 
 .search-box{
