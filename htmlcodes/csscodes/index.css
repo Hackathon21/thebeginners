@@ -12,8 +12,8 @@
 
 .logo{
   position: relative;
-  left: -120px;
-  top: 10px;
+  left: -140px;
+  top: 15px;
   height: 150px;
   z-index: 1;
     
@@ -102,7 +102,7 @@ border-radius: 20px;
     width: 100%;
    position: relative;
    top: -35px;
-    background-image: url(finalbackground.png);
+    background-image: url(/htmlcodes/photos/finalbackground.png);
 }
 
 .search-box{

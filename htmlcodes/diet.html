@@ -7,7 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="diet.css">
+    <link rel="stylesheet" href="csscodes/diet.css">
+    <link rel="stylesheet" href="csscodes/index.css">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,6 +20,7 @@
 </head>
 
 <body style="background-color: #ffff ;">
+ 
     <div class="text-center">
         <h1 class="display-4" style="font-family: 'Suez One', serif;">Diet</h1>
         <hr class="w-25 mx-auto" />
@@ -33,7 +35,7 @@
     <div>
         <label class="radio-img">
             <input type="checkbox" name="layout" value="L" />
-            <div class="image" style="background-image: url(./WhatsApp\ Image\ 2021-06-24\ at\ 5.19.38\ PM.jpeg);">
+            <div class="image" style="background-image: url(photos/diet/food.jpeg);">
             </div>
             <h6 class="mood-text" style="text-align: center;"></h6>
         </label>
@@ -41,7 +43,7 @@
         <label class="radio-img1">
             <input type="checkbox" name="layout" value="L" />
             <div class="image"
-                style="background-image: url(./WhatsApp\ Image\ 2021-06-24\ at\ 5.19.38\ PM\ \(1\).jpeg);">
+                style="background-image: url(photos/diet/water.jpeg);">
             </div>
             <h6 class="mood-text" style="text-align: center;"></h6>
         </label>
@@ -69,7 +71,7 @@
             <button onclick="togglePopup()">FOOD</button>
 
             <div class="d-grid gap-2 col-2 mx-auto my-5">
-                <a href="./mood/mood.html">
+                <a href="mood.html">
                     <button2 class="btn btn-dark" type="button"
                         style="box-shadow: 0 0.6rem 1.5rem rgba(0, 0, 0, 0.25), 0 0.5rem 0.5rem rgba(0, 0, 0, 0.22);">
                         Submit</button2>
@@ -84,6 +86,7 @@
                 document.getElementById("popup-1").classList.toggle("active");
             }
         </script>
+ 
         <!-- Optional JavaScript; choose one of the two! -->
 
         <!-- Option 1: Bootstrap Bundle with Popper -->
